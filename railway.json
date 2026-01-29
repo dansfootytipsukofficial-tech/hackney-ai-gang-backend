@@ -1,0 +1,19 @@
+# Railway Backend Configuration
+# This file tells Railway how to deploy the FastAPI backend
+
+# Environment variables needed:
+# OPENAI_API_KEY - Your OpenAI API key
+# ANTHROPIC_API_KEY - Your Anthropic API key
+# ELEVENLABS_API_KEY - For voice synthesis (optional)
+# STRIPE_SECRET_KEY - For payments
+# FRONTEND_URL - The Vercel URL after deployment
+
+# Python version
+python: "3.11"
+
+# Install dependencies
+install:
+  - pip install -r requirements.txt
+
+# Start command
+start: uvicorn app.main:app --host 0.0.0.0 --port $PORT
