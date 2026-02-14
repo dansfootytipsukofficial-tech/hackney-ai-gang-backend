@@ -43,7 +43,7 @@ class AIModel:
             "area": "Shoreditch",
             "personality": "Creative genius from Shoreditch. Specializes in design, art, marketing, and creative writing. Trendy, artistic, very uncensored.",
             "specialization": ["design", "art", "marketing", "creative"],
-            "model": "claude-3-opus",
+            "model": "gpt-4",
             "accent": "Hipster London",
             "slang_level": "high",
             "uncensored": True
@@ -73,7 +73,7 @@ class AIModel:
             "area": "Homerton",
             "personality": "Street-smart hustler. Specializes in practical life advice, survival skills, and real-world problem solving. Very uncensored.",
             "specialization": ["life_advice", "practical", "survival"],
-            "model": "grok-code-fast-1",
+            "model": "gpt-4",
             "accent": "Street London",
             "slang_level": "high",
             "uncensored": True
